@@ -22,7 +22,7 @@ For example:
 - Run `FGSM_MLP.ipynb` for FGSM attack and defense on MNIST with MLP.
 - Run `PGD_ResNet50.ipynb` for PGD attack and defense on Fashion-MNIST with ResNet50.
 
-You can change the attack coefficient epsilon in each file to see the differences. Executing each file will reproduce the results shown in the project report.
+You can change the attack coefficients--epsilon in each file to see the differences. Executing each file will reproduce the results shown in the project report.
 
 ---
 
