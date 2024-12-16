@@ -8,11 +8,9 @@ We implement various types of **adversarial attacks** and corresponding **defens
 
 ## Project Structure
 
-- **FGSM_MLP.ipynb**  
-   Implements **FGSM (Fast Gradient Sign Method)** attack on an **MLP** (Multi-Layer Perceptron) trained on the **MNIST** dataset, along with defense strategies against FGSM.
+- **AttackMethod_NeuralNetwork.ipynb**  
+   Implements **FGSM or PGD** attack on a neural network (MLP, AlexNet or ResNet50) trained on the **MNIST or Fashion-MNIST** dataset, along with defense strategies.
 
-- **PGD_ResNet50.ipynb**  
-   Implements **PGD (Projected Gradient Descent)** multi-step attack on a **ResNet50** model trained on the **Fashion-MNIST** dataset, along with defense strategies against PGD.
 
 ---
 
@@ -31,7 +29,7 @@ Executing each file will reproduce the results shown in the project report.
 ## Project Highlights
 
 - **Attacks Implemented**: FGSM (single-step) and PGD (multi-step).  
-- **Models Tested**: MLP and ResNet50.  
+- **Models Tested**: MLP, AlexNet and ResNet50.  
 - **Datasets Used**: MNIST and Fashion-MNIST.  
 - **Defense Strategies**: Implemented to evaluate model robustness under adversarial attacks.
 
