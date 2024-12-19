@@ -1,7 +1,5 @@
 # Analyzing and Optimizing the Robustness of Neural Networks
 
-This repository contains the final project for **543T**, titled *"Analyzing and Optimizing the Robustness of Neural Networks"*.
-
 We implement various types of **adversarial attacks** and corresponding **defense mechanisms**, and test their performance on different neural networks and datasets. Each `.ipynb` file corresponds to a specific attack method applied to a specific neural network and dataset, along with its defense strategy.
 
 ---
@@ -34,8 +32,4 @@ You can change the attack coefficients--epsilon in each file to see the differen
 - **Defense Strategies**: Implemented to evaluate model robustness under adversarial attacks.
 
 ---
-
-## Acknowledgment
-
-This project was completed as part of the **543T Final Project**.
 
