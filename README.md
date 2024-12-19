@@ -33,7 +33,4 @@ You can change the attack coefficients--epsilon in each file to see the differen
 
 ---
 
-## Acknowledgment
-
-This project was completed as part of the **543T Final Project**.
 
